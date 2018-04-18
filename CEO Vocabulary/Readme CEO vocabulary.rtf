@@ -1,0 +1,125 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs28 \cf0 Readme CEO Vocabulary: mapping mentions to a CEO class
+\b0\fs24 \
+\
+Roxane Segers, Vrije Universiteit Amsterdam, The Netherlands\
+roxane.segers@gmail.com\
+Date: 12-01-2018\
+\
+What is in the file: two sheets. One for mentions extracted from the event coreference sets in ECB/CEO. The second sheet covers mentions coming from the Semeval corpus vocabulary. All mentions, if not already covered by ECB/CEO, are listed here and are annotated.\
+\
+For ECB/CEO, 650 unique mentions were annotated with a total frequency of 3982.\
+For Semeval, an additional 132 unique mentions were annotated. (No frequency numbers)\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 1. On the mapping from mentions to CEO classes:
+\b0 \
+\
+\ul Disambiguation:\ulnone  The mapping is primarily based on what I know is covered in ECB. That defines the predominant sense of a mention and thus the according mapping. For some mentions, there are mappings to multiple classes that are conceptually closely related, e.g. BeingDead and Dying, or Killing and IntentionalKilling.\
+\
+\ul Missing concepts:\ulnone  Some mentions could not be mapped as the concept is not (yet) covered in CEO. Examples are: 
+\i bankruptcy
+\i0 , 
+\i betrayal
+\i0 , 
+\i alerting s.o.
+\i0 , 
+\i peace
+\i0 . Almost all these missing concepts are slightly out of domain or low frequent. The more high frequent ones are related to fine-grained and predefined events that relate to trials. These are hard to model by means of pre and post conditions as there is basically no semantic relation between the events. The relation is based on a predefined and regulated rule system. These are \'91scheduled events\'92 as also seen in e.g. sport games, elections, etc.\
+\
+\ul Polysemous cases:\ulnone \
+Some mentions are too polysemous and/or vague to annotate: \'92
+\i spark
+\i0 \'92, \'91
+\i targeted
+\i0 \'92, \'91
+\i suspended
+\i0 \'92. I ignored those and coded them with /P.\
+\
+For some polysemous classes I made a mapping to multiple but conceptually distinct classes as they represent important concepts in one or more domains of the ECB. We can disambiguate these by adding the topic number they pertain to.\
+\
+strikes, strike: 		Attacking, Impacting and LaborStrike\
+casualty: 			BeingInjured, BeingDead\
+cuts, cutting, cut: 	Damaging and Injuring classes and Decreasing.\
+fire, fires: 			Shooting, Fire (fire burning) and LeavingAnOrganization\
+passed: 			Translocation and Dying\
+operation: 		Surgery and an Out of domain concept/Bag of events.\
+\
+\ul Bag of event mentions:\ulnone \
+Some mentions basically are umbrella terms and may refer to a multitude of events. I have not annotated these but marked them with /B. Examples: 
+\i pandemonium
+\i0 , 
+\i disaster
+\i0 , 
+\i scandal
+\i0 , 
+\i crime
+\i0 .\
+\
+
+\b 2. Explanation of the columns:
+\b0 \
+\
+\ul Column A\ulnone \
+Lemma based identifier. Not of any use right now, but helpful for lemmatization and mapping the vocabulary to other resources later on.\
+\
+\ul Column B\ulnone \
+Lemma. Needs to be finished, not a priority right now.\
+\
+\ul Column C\ulnone \
+The mention, only surface forms as they were extracted.\
+\
+\ul Column D\ulnone \
+Provenance of the mentions. Automatic is automatically extracted by Piek from ECB-CEO (based on coreference sets labelled with \'91event\'92 and the ones created for the CEO annotation).\
+ECB-manual are extracted manually from the annotations (ad hoc). Mostly MWUs. \
+\
+\ul Column E\ulnone \
+Frequency of the mention, only available for the automatically extracted mentions.\
+\
+\ul Column F\ulnone \
+CEO event type or a different annotation code if no mapping could be made.\
+\
+
+\b 3. Annotation codes:
+\b0 \
+\
+/I	instance\
+/M	potential missing concept in CEO\
+/O	out of domain concept\
+/B	bag of events mention\
+/N	negation mention that could not be annotated (defrauded, unharmed, unexploded)\
+/P     too polysemous to annotate\
+\
+The frequencies of these in ECB+/CEO:\
+\
+/B	22 unique mentions, total frequency of 104\
+/I	1 unique mention, total frequency of 20\
+/M	78 unique mentions, total frequency of 262\
+/N	3 unique mentions, total frequency of 6	\
+/O 	25 unique mentions, total frequency of 85\
+/P	14 unique mentions, total frequency of 51\
+\
+
+\b 4. Coverage
+\b0 \
+\
+Note that not all CEO classes are covered by CEO. I checked quickly, there are about 100 different classes covered in ECB/CEO. That is about 50% of what is currently in CEO. \
+\
+
+\b 5. Future work\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 Next version will be lemmatised and mapped to Framenet and Wordnet with proper senses.\
+The vocabulary will be further extended based on FrameNet and WordNet.\
+\
+\
+\
+}

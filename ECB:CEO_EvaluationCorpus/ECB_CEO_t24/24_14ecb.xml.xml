@@ -1,0 +1,96 @@
+<Document doc_name="24_14ecb.xml">
+<token t_id="1" sentence="0" number="0">French</token>
+<token t_id="2" sentence="0" number="1">police</token>
+<token t_id="3" sentence="0" number="2">say</token>
+<token t_id="4" sentence="0" number="3">armed</token>
+<token t_id="5" sentence="0" number="4">robbers</token>
+<token t_id="6" sentence="0" number="5">cleaned</token>
+<token t_id="7" sentence="0" number="6">out</token>
+<token t_id="8" sentence="0" number="7">a</token>
+<token t_id="9" sentence="0" number="8">high-end</token>
+<token t_id="10" sentence="0" number="9">jewelry</token>
+<token t_id="11" sentence="0" number="10">store</token>
+<token t_id="12" sentence="0" number="11">yesterday</token>
+<token t_id="13" sentence="0" number="12">in</token>
+<token t_id="14" sentence="0" number="13">Paris</token>
+<token t_id="15" sentence="0" number="14">,</token>
+<token t_id="16" sentence="0" number="15">news</token>
+<token t_id="17" sentence="0" number="16">organizations</token>
+<token t_id="18" sentence="0" number="17">report</token>
+<token t_id="19" sentence="0" number="18">.</token>
+
+
+<Markables>
+<ACTION_GOLD m_id="1" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="6"/>
+<token_anchor t_id="7"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="2" comment="" climaxEvent="FALSE" class="REPORTING" polarity="POS"  >
+<token_anchor t_id="18"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="7" comment="" climaxEvent="FALSE" class="REPORTING" polarity="POS"  >
+<token_anchor t_id="3"/>
+</ACTION_GOLD>
+<HUMAN_PART_ORG m_id="3"  >
+<token_anchor t_id="16"/>
+<token_anchor t_id="17"/>
+</HUMAN_PART_ORG>
+<HUMAN_PART_PER m_id="4" comment=""  >
+<token_anchor t_id="5"/>
+</HUMAN_PART_PER>
+<HUMAN_PART_PER m_id="8" comment=""  >
+<token_anchor t_id="2"/>
+</HUMAN_PART_PER>
+<LOC_FAC m_id="5"  >
+<token_anchor t_id="9"/>
+<token_anchor t_id="10"/>
+<token_anchor t_id="11"/>
+</LOC_FAC>
+<LOC_GEO m_id="6" comment=""  >
+<token_anchor t_id="14"/>
+</LOC_GEO>
+<TIME_OF_THE_DAY m_id="9" value="" anchorTimeID="" DCT="FALSE"  >
+<token_anchor t_id="12"/>
+</TIME_OF_THE_DAY>
+
+
+<LOC_FAC m_id="10" RELATED_TO="" TAG_DESCRIPTOR="t24b_boutique" />
+<LOC_GEO m_id="11" RELATED_TO="" TAG_DESCRIPTOR="t24_central_paris" comment="" />
+<ACTION_GOLD m_id="12" RELATED_TO="" TAG_DESCRIPTOR="t24b_officials_said" comment="" climaxEvent="FALSE" class="REPORTING" polarity="POS" />
+<HUMAN_PART_PER m_id="13" RELATED_TO="" TAG_DESCRIPTOR="t24b_officials" comment="" />
+<TIME_OF_THE_DAY m_id="14" RELATED_TO="" TAG_DESCRIPTOR="t24b_late_thursday" value="" anchorTimeID="" DCT="FALSE" />
+<ACTION_GOLD m_id="15" RELATED_TO="" TAG_DESCRIPTOR="t24b_robbery" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<HUMAN_PART_PER m_id="16" RELATED_TO="" TAG_DESCRIPTOR="t24b_robbers" comment="" />
+</Markables>
+
+<Relations>
+<CROSS_DOC_COREF r_id="254619" note="HUM18318452306120227" comment="" >
+<source m_id="4" />
+<target m_id="16" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254620" note="ACT18319049821521663" comment="" >
+<source m_id="1" />
+<target m_id="15" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254621" note="TIM18318870850066558" comment="" >
+<source m_id="9" />
+<target m_id="14" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254622" note="HUM27334146265815318" comment="" >
+<source m_id="8" />
+<target m_id="13" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254623" note="ACT27334062498597667" comment="" >
+<source m_id="7" />
+<target m_id="12" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254624" note="LOC18316830192392387" comment="" >
+<source m_id="6" />
+<target m_id="11" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254625" note="LOC18318468151124403" comment="" >
+<source m_id="5" />
+<target m_id="10" />
+</CROSS_DOC_COREF>
+</Relations>
+</Document>

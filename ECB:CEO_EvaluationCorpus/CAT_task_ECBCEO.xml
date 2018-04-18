@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<task name="ECBCEO">
+<markables>
+<markable color="#f2e713" name="ACTION_GOLD">
+<attributes>
+<attribute default_value="" name="comment" type="textbox"/>
+<attribute default_value="" name="climaxEvent" type="checkbox"/>
+<attribute default_value="" name="class" type="combobox">
+<value value="STATE"/>
+<value value="OCCURRENCE"/>
+<value value="PERCEPTION"/>
+<value value="REPORTING"/>
+<value value="CAUSATIVE"/>
+<value value="GENERIC"/>
+<value value="ASPECTUAL"/>
+</attribute>
+<attribute default_value="POS" name="polarity" type="combobox">
+<value value="POS"/>
+<value value="NEG"/>
+</attribute>
+</attributes>
+</markable>
+<markable color="#1277f1" name="ACTION_SILVER">
+<attributes>
+<attribute default_value="" name="comment" type="textbox"/>
+<attribute default_value="" name="climaxEvent" type="checkbox"/>
+<attribute default_value="" name="class" type="combobox">
+<value value="STATE"/>
+<value value="OCCURRENCE"/>
+<value value="PERCEPTION"/>
+<value value="REPORTING"/>
+<value value="CAUSATIVE"/>
+<value value="GENERIC"/>
+<value value="ASPECTUAL"/>
+</attribute>
+<attribute default_value="POS" name="polarity" type="combobox">
+<value value="POS"/>
+<value value="NEG"/>
+</attribute>
+</attributes>
+</markable>
+<markable color="#f56767" name="HUMAN_PART_PER">
+<attributes>
+<attribute default_value="" name="comment" type="textbox"/>
+</attributes>
+</markable>
+<markable color="#f56767" name="HUMAN_PART_ORG">
+<attributes/>
+</markable>
+<markable color="#f56767" name="HUMAN_PART_GPE">
+<attributes/>
+</markable>
+<markable color="#f56767" name="HUMAN_PART_FAC">
+<attributes/>
+</markable>
+<markable color="#f56767" name="HUMAN_PART_VEH">
+<attributes/>
+</markable>
+<markable color="#f56767" name="HUMAN_PART_MET">
+<attributes/>
+</markable>
+<markable color="#f56767" name="HUMAN_PART_GENERIC">
+<attributes/>
+</markable>
+<markable color="#d967f5" name="NON_HUMAN_PART">
+<attributes>
+<attribute default_value="" name="comment" type="textbox"/>
+</attributes>
+</markable>
+<markable color="#d967f5" name="NON_HUMAN_PART_GENERIC">
+<attributes/>
+</markable>
+<markable color="#67f570" name="TIME_DATE">
+<attributes>
+<attribute default_value="" name="value" type="textbox"/>
+<attribute default_value="" name="anchorTimeID" type="referenceLink"/>
+<attribute default_value="" name="DCT" type="checkbox"/>
+<attribute default_value="" name="comment" type="textbox"/>
+</attributes>
+</markable>
+<markable color="#67f570" name="TIME_OF_THE_DAY">
+<attributes>
+<attribute default_value="" name="value" type="textbox"/>
+<attribute default_value="" name="anchorTimeID" type="referenceLink"/>
+<attribute default_value="" name="DCT" type="checkbox"/>
+</attributes>
+</markable>
+<markable color="#67f570" name="TIME_DURATION">
+<attributes>
+<attribute default_value="" name="value" type="textbox"/>
+<attribute default_value="" name="anchorTimeID" type="referenceLink"/>
+<attribute default_value="" name="begin" type="referenceLink"/>
+<attribute default_value="" name="endPoint" type="referenceLink"/>
+</attributes>
+</markable>
+<markable color="#67f570" name="TIME_REPETITION">
+<attributes>
+<attribute default_value="" name="value" type="textbox"/>
+<attribute default_value="" name="quant" type="textbox"/>
+<attribute default_value="" name="freq" type="textbox"/>
+</attributes>
+</markable>
+<markable color="#67f5f5" name="LOC_GEO">
+<attributes>
+<attribute default_value="" name="comment" type="textbox"/>
+</attributes>
+</markable>
+<markable color="#67f5f5" name="LOC_FAC">
+<attributes/>
+</markable>
+<markable color="#67f5f5" name="LOC_OTHER">
+<attributes/>
+</markable>
+<markable color="#eb9ea4" name="concept_HUMAN_PARTICIPANT">
+<attributes/>
+</markable>
+<markable color="#d47b1b" name="ENTITY">
+<attributes/>
+</markable>
+</markables>
+<relations>
+<relation cardinality="one_to_one" color="#ff9b05" direction="true" name="TLINK">
+<attributes>
+<attribute default_value="BEFORE" name="relType" type="combobox">
+<value value="BEFORE"/>
+<value value="AFTER"/>
+<value value="OVERLAP"/>
+<value value="BEGINS_ON"/>
+<value value="ENDS_ON"/>
+<value value="SIMULTANEOUS"/>
+<value value="BEGUN_ON"/>
+<value value="ENDED_ON"/>
+<value value="CONTAINS"/>
+<value value="IS_CONTAINED"/>
+<value value="n.a."/>
+</attribute>
+<attribute default_value="" name="contextualModality" type="radiobutton">
+<value value="ACT"/>
+<value value="UNC"/>
+<value value="HYP"/>
+<value value="GEN"/>
+</attribute>
+<attribute default_value="" name="comment" type="textbox"/>
+</attributes>
+</relation>
+<relation cardinality="one_to_one" color="#cbcbcb" direction="false" name="PLOT_LINK">
+<attributes>
+<attribute default_value="PRECONDITION" name="relType" type="combobox">
+<value value="PRECONDITION"/>
+<value value="FALLING_ACTION"/>
+</attribute>
+<attribute default_value="" name="CAUSES" type="checkbox"/>
+<attribute default_value="" name="CAUSED_BY" type="checkbox"/>
+<attribute default_value="" name="SIGNAL" type="referenceLink"/>
+</attributes>
+</relation>
+<relation cardinality="one_to_one" color="#ff9b05" direction="true" name="LOCATION_LINK">
+<attributes/>
+</relation>
+</relations>
+</task>

@@ -1,0 +1,116 @@
+<Document doc_name="23_1ecb.xml">
+<token t_id="1" sentence="0" number="0">AN</token>
+<token t_id="2" sentence="0" number="1">AUSTRALIAN</token>
+<token t_id="3" sentence="0" number="2">climber</token>
+<token t_id="4" sentence="0" number="3">who</token>
+<token t_id="5" sentence="0" number="4">survived</token>
+<token t_id="6" sentence="0" number="5">two</token>
+<token t_id="7" sentence="0" number="6">nights</token>
+<token t_id="8" sentence="0" number="7">stuck</token>
+<token t_id="9" sentence="0" number="8">on</token>
+<token t_id="10" sentence="0" number="9">Mount</token>
+<token t_id="11" sentence="0" number="10">Cook</token>
+<token t_id="12" sentence="0" number="11">after</token>
+<token t_id="13" sentence="0" number="12">seeing</token>
+<token t_id="14" sentence="0" number="13">his</token>
+<token t_id="15" sentence="0" number="14">brother</token>
+<token t_id="16" sentence="0" number="15">die</token>
+<token t_id="17" sentence="0" number="16">narrowly</token>
+<token t_id="18" sentence="0" number="17">escaped</token>
+<token t_id="19" sentence="0" number="18">being</token>
+<token t_id="20" sentence="0" number="19">buried</token>
+<token t_id="21" sentence="0" number="20">alive</token>
+<token t_id="22" sentence="0" number="21">.</token>
+
+
+<Markables>
+<ACTION_GOLD m_id="1" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="5"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="2" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="16"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="3" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="18"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="4" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="20"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="5" comment="" climaxEvent="FALSE" class="PERCEPTION" polarity="POS"  >
+<token_anchor t_id="13"/>
+</ACTION_GOLD>
+<ACTION_SILVER m_id="18" comment="" climaxEvent="FALSE" class="" polarity=""  >
+<token_anchor t_id="8"/>
+</ACTION_SILVER>
+<HUMAN_PART_PER m_id="7" comment=""  >
+<token_anchor t_id="15"/>
+</HUMAN_PART_PER>
+<HUMAN_PART_PER m_id="6" comment=""  >
+<token_anchor t_id="3"/>
+</HUMAN_PART_PER>
+<LOC_GEO m_id="8" comment=""  >
+<token_anchor t_id="10"/>
+<token_anchor t_id="11"/>
+</LOC_GEO>
+<TIME_DURATION m_id="9" value="" anchorTimeID="" begin="" endPoint=""  >
+<token_anchor t_id="6"/>
+<token_anchor t_id="7"/>
+</TIME_DURATION>
+
+
+<TIME_DURATION m_id="10" RELATED_TO="" TAG_DESCRIPTOR="t23b_two_nights" value="" anchorTimeID="" begin="" endPoint="" />
+<ACTION_GOLD m_id="11" RELATED_TO="" TAG_DESCRIPTOR="t23b_survived" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<ACTION_GOLD m_id="12" RELATED_TO="" TAG_DESCRIPTOR="t23b_watched_bro_fall" comment="" climaxEvent="FALSE" class="PERCEPTION" polarity="POS" />
+<ACTION_GOLD m_id="13" RELATED_TO="" TAG_DESCRIPTOR="t23b_buried" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<HUMAN_PART_PER m_id="14" RELATED_TO="" TAG_DESCRIPTOR="t23b_brother" comment="" />
+<HUMAN_PART_PER m_id="15" RELATED_TO="" TAG_DESCRIPTOR="t23b_climber" comment="" />
+<ACTION_GOLD m_id="16" RELATED_TO="" TAG_DESCRIPTOR="t23b_died" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<LOC_GEO m_id="17" RELATED_TO="" TAG_DESCRIPTOR="t23_cook" comment="" />
+<ACTION_SILVER m_id="19" RELATED_TO="18" TAG_DESCRIPTOR="stuck" comment="" climaxEvent="FALSE" class="" polarity="" />
+<ACTION_GOLD m_id="20" RELATED_TO="3" TAG_DESCRIPTOR="escape" comment="" climaxEvent="FALSE" class="" polarity="" />
+</Markables>
+
+<Relations>
+<CROSS_DOC_COREF r_id="237459" note="LOC18241315453418084" comment="" >
+<source m_id="8" />
+<target m_id="17" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="237460" note="ACT18319700214698432" comment="" >
+<source m_id="2" />
+<target m_id="16" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="237461" note="HUM18319688289991189" comment="" >
+<source m_id="6" />
+<target m_id="15" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="237462" note="HUM18319674083945732" comment="" >
+<source m_id="7" />
+<target m_id="14" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="237463" note="ACT18319782456174232" comment="" >
+<source m_id="4" />
+<target m_id="13" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="237464" note="ACT27332138770482467" comment="" >
+<source m_id="5" />
+<target m_id="12" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="237465" note="ACT27332451779822896" comment="" >
+<source m_id="1" />
+<source m_id="3" />
+<target m_id="11" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="237466" note="TIM18319758995099143" comment="" >
+<source m_id="9" />
+<target m_id="18" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="241969" >
+<source m_id="18" />
+<target m_id="19" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="241971" >
+<source m_id="3" />
+<target m_id="20" />
+</CROSS_DOC_COREF>
+</Relations>
+</Document>

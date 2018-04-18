@@ -1,0 +1,9 @@
+- number of articles annotated for ECB-CEO : 508
+- new annotated instances (silver): 3038 
+- number of gold instances annotated in ECB+ for ECB+/CEO: 3323
+- new coreference sets in ECB-CEO: 3448 
+- number of golf coref sets in ECB+ for ECB+/CEO: 5244
+- number of CEO Link: 2494
+- number HCPE relations: 2244
+- number SubEvent Relations: 193
+- number of CEO Link without a relType attribute: 57

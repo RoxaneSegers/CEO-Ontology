@@ -1,0 +1,104 @@
+<Document doc_name="26_10ecb.xml">
+<token t_id="1" sentence="0" number="0">A</token>
+<token t_id="2" sentence="0" number="1">Mafia</token>
+<token t_id="3" sentence="0" number="2">boss</token>
+<token t_id="4" sentence="0" number="3">in</token>
+<token t_id="5" sentence="0" number="4">Palermo</token>
+<token t_id="6" sentence="0" number="5">hanged</token>
+<token t_id="7" sentence="0" number="6">himself</token>
+<token t_id="8" sentence="0" number="7">in</token>
+<token t_id="9" sentence="0" number="8">jail</token>
+<token t_id="10" sentence="0" number="9">after</token>
+<token t_id="11" sentence="0" number="10">hours</token>
+<token t_id="12" sentence="0" number="11">before</token>
+<token t_id="13" sentence="0" number="12">he</token>
+<token t_id="14" sentence="0" number="13">was</token>
+<token t_id="15" sentence="0" number="14">arrested</token>
+<token t_id="16" sentence="0" number="15">in</token>
+<token t_id="17" sentence="0" number="16">a</token>
+<token t_id="18" sentence="0" number="17">police</token>
+<token t_id="19" sentence="0" number="18">'s</token>
+<token t_id="20" sentence="0" number="19">raid</token>
+<token t_id="21" sentence="0" number="20">.</token>
+
+
+<Markables>
+<ACTION_GOLD m_id="1" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="20"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="2" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="6"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="3" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="15"/>
+</ACTION_GOLD>
+<HUMAN_PART_ORG m_id="4"  >
+<token_anchor t_id="18"/>
+</HUMAN_PART_ORG>
+<HUMAN_PART_PER m_id="5" comment=""  >
+<token_anchor t_id="2"/>
+<token_anchor t_id="3"/>
+</HUMAN_PART_PER>
+<HUMAN_PART_PER m_id="6" comment=""  >
+<token_anchor t_id="7"/>
+</HUMAN_PART_PER>
+<HUMAN_PART_PER m_id="7" comment=""  >
+<token_anchor t_id="13"/>
+</HUMAN_PART_PER>
+<LOC_FAC m_id="8"  >
+<token_anchor t_id="9"/>
+</LOC_FAC>
+<LOC_GEO m_id="9" comment=""  >
+<token_anchor t_id="5"/>
+</LOC_GEO>
+<TIME_DURATION m_id="10" value="" anchorTimeID="" begin="" endPoint=""  >
+<token_anchor t_id="11"/>
+</TIME_DURATION>
+
+
+<ACTION_GOLD m_id="11" RELATED_TO="" TAG_DESCRIPTOR="t26b_police_raid" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<ACTION_GOLD m_id="12" RELATED_TO="" TAG_DESCRIPTOR="t26b_hanged" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<ACTION_GOLD m_id="13" RELATED_TO="" TAG_DESCRIPTOR="t26b_arrest" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<HUMAN_PART_PER m_id="14" RELATED_TO="" TAG_DESCRIPTOR="t26b_presti" comment="" />
+<TIME_DURATION m_id="15" RELATED_TO="" TAG_DESCRIPTOR="t26b_hours" value="" anchorTimeID="" begin="" endPoint="" />
+<LOC_FAC m_id="16" RELATED_TO="" TAG_DESCRIPTOR="t26b_prison" />
+<HUMAN_PART_ORG m_id="17" RELATED_TO="" TAG_DESCRIPTOR="t26b_police" />
+</Markables>
+
+<Relations>
+<CROSS_DOC_COREF r_id="254772" note="HUM18441875401449335" comment="" >
+<source m_id="4" />
+<target m_id="17" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254773" note="LOC18441904201489761" comment="" >
+<source m_id="8" />
+<target m_id="16" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254774" note="TIM18442142154629810" comment="" >
+<source m_id="10" />
+<target m_id="15" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254775" note="HUM18441890442259339" comment="" >
+<source m_id="5" />
+<source m_id="6" />
+<source m_id="7" />
+<target m_id="14" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254776" note="ACT18441937963352466" comment="" >
+<source m_id="3" />
+<target m_id="13" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254777" note="ACT18441863532401006" comment="" >
+<source m_id="2" />
+<target m_id="12" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254778" note="ACT27337443408187958" comment="" >
+<source m_id="1" />
+<target m_id="11" />
+</CROSS_DOC_COREF>
+<CEO_LINK r_id="254851" relType="Contains-Subevent" comment="" >
+<source m_id="11" />
+<target m_id="13" />
+</CEO_LINK>
+</Relations>
+</Document>

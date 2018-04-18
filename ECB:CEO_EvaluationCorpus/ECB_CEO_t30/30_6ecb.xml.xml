@@ -1,0 +1,201 @@
+<Document doc_name="30_6ecb.xml">
+<token t_id="1" sentence="0" number="0">Mideast</token>
+<token t_id="2" sentence="0" number="1">internet</token>
+<token t_id="3" sentence="0" number="2">services</token>
+<token t_id="4" sentence="0" number="3">disrupted</token>
+<token t_id="5" sentence="1" number="0">Internet</token>
+<token t_id="6" sentence="1" number="1">links</token>
+<token t_id="7" sentence="1" number="2">between</token>
+<token t_id="8" sentence="1" number="3">Europe</token>
+<token t_id="9" sentence="1" number="4">,</token>
+<token t_id="10" sentence="1" number="5">the</token>
+<token t_id="11" sentence="1" number="6">Middle</token>
+<token t_id="12" sentence="1" number="7">East</token>
+<token t_id="13" sentence="1" number="8">and</token>
+<token t_id="14" sentence="1" number="9">South</token>
+<token t_id="15" sentence="1" number="10">Asia</token>
+<token t_id="16" sentence="1" number="11">have</token>
+<token t_id="17" sentence="1" number="12">been</token>
+<token t_id="18" sentence="1" number="13">disrupted</token>
+<token t_id="19" sentence="1" number="14">after</token>
+<token t_id="20" sentence="1" number="15">undersea</token>
+<token t_id="21" sentence="1" number="16">cables</token>
+<token t_id="22" sentence="1" number="17">failed</token>
+<token t_id="23" sentence="1" number="18">in</token>
+<token t_id="24" sentence="1" number="19">the</token>
+<token t_id="25" sentence="1" number="20">Mediterranean</token>
+<token t_id="26" sentence="1" number="21">.</token>
+<token t_id="27" sentence="2" number="0">International</token>
+<token t_id="28" sentence="2" number="1">telephone</token>
+<token t_id="29" sentence="2" number="2">and</token>
+<token t_id="30" sentence="2" number="3">internet</token>
+<token t_id="31" sentence="2" number="4">services</token>
+<token t_id="32" sentence="2" number="5">in</token>
+<token t_id="33" sentence="2" number="6">Egypt</token>
+<token t_id="34" sentence="2" number="7">were</token>
+<token t_id="35" sentence="2" number="8">down</token>
+<token t_id="36" sentence="2" number="9">by</token>
+<token t_id="37" sentence="2" number="10">80</token>
+<token t_id="38" sentence="2" number="11">percent</token>
+<token t_id="39" sentence="2" number="12">,</token>
+<token t_id="40" sentence="2" number="13">in</token>
+<token t_id="41" sentence="2" number="14">India</token>
+<token t_id="42" sentence="2" number="15">by</token>
+<token t_id="43" sentence="2" number="16">65</token>
+<token t_id="44" sentence="2" number="17">percent</token>
+<token t_id="45" sentence="2" number="18">.</token>
+<token t_id="46" sentence="3" number="0">The</token>
+<token t_id="47" sentence="3" number="1">company</token>
+<token t_id="48" sentence="3" number="2">managing</token>
+<token t_id="49" sentence="3" number="3">the</token>
+<token t_id="50" sentence="3" number="4">cables</token>
+<token t_id="51" sentence="3" number="5">says</token>
+<token t_id="52" sentence="3" number="6">a</token>
+<token t_id="53" sentence="3" number="7">ship</token>
+<token t_id="54" sentence="3" number="8">is</token>
+<token t_id="55" sentence="3" number="9">under</token>
+<token t_id="56" sentence="3" number="10">way</token>
+<token t_id="57" sentence="3" number="11">to</token>
+<token t_id="58" sentence="3" number="12">carry</token>
+<token t_id="59" sentence="3" number="13">out</token>
+<token t_id="60" sentence="3" number="14">repairs</token>
+<token t_id="61" sentence="3" number="15">.</token>
+<token t_id="62" sentence="4" number="0">France</token>
+<token t_id="63" sentence="4" number="1">Telecom</token>
+<token t_id="64" sentence="4" number="2">expects</token>
+<token t_id="65" sentence="4" number="3">communications</token>
+<token t_id="66" sentence="4" number="4">will</token>
+<token t_id="67" sentence="4" number="5">not</token>
+<token t_id="68" sentence="4" number="6">be</token>
+<token t_id="69" sentence="4" number="7">fully</token>
+<token t_id="70" sentence="4" number="8">restored</token>
+<token t_id="71" sentence="4" number="9">before</token>
+<token t_id="72" sentence="4" number="10">31</token>
+<token t_id="73" sentence="4" number="11">December</token>
+<token t_id="74" sentence="4" number="12">.</token>
+
+
+<Markables>
+<ACTION_GOLD m_id="1" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="6"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="2" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="18"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="3" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="22"/>
+</ACTION_GOLD>
+<ACTION_SILVER m_id="16" comment="" climaxEvent="FALSE" class="" polarity=""  >
+<token_anchor t_id="31"/>
+</ACTION_SILVER>
+<ACTION_SILVER m_id="17" comment="" climaxEvent="FALSE" class="" polarity=""  >
+<token_anchor t_id="48"/>
+</ACTION_SILVER>
+<ACTION_SILVER m_id="18" comment="" climaxEvent="FALSE" class="" polarity=""  >
+<token_anchor t_id="51"/>
+</ACTION_SILVER>
+<ACTION_SILVER m_id="19" comment="" climaxEvent="FALSE" class="" polarity=""  >
+<token_anchor t_id="58"/>
+</ACTION_SILVER>
+<ACTION_SILVER m_id="20" comment="" climaxEvent="FALSE" class="" polarity=""  >
+<token_anchor t_id="64"/>
+</ACTION_SILVER>
+<ACTION_SILVER m_id="21" comment="" climaxEvent="FALSE" class="" polarity=""  >
+<token_anchor t_id="70"/>
+</ACTION_SILVER>
+<ACTION_SILVER m_id="22" comment="" climaxEvent="FALSE" class="" polarity=""  >
+<token_anchor t_id="60"/>
+</ACTION_SILVER>
+<ACTION_SILVER m_id="23" climaxEvent="FALSE" class="" polarity="" comment=""  >
+<token_anchor t_id="35"/>
+</ACTION_SILVER>
+<ACTION_SILVER m_id="15" comment="" climaxEvent="FALSE" class="" polarity=""  >
+<token_anchor t_id="3"/>
+</ACTION_SILVER>
+<LOC_GEO m_id="4" comment=""  >
+<token_anchor t_id="23"/>
+<token_anchor t_id="24"/>
+<token_anchor t_id="25"/>
+</LOC_GEO>
+<LOC_GEO m_id="5" comment=""  >
+<token_anchor t_id="7"/>
+<token_anchor t_id="8"/>
+<token_anchor t_id="9"/>
+<token_anchor t_id="10"/>
+<token_anchor t_id="11"/>
+<token_anchor t_id="12"/>
+<token_anchor t_id="13"/>
+<token_anchor t_id="14"/>
+</LOC_GEO>
+<NON_HUMAN_PART m_id="6" comment=""  >
+<token_anchor t_id="21"/>
+</NON_HUMAN_PART>
+<NON_HUMAN_PART_GENERIC m_id="7"  >
+<token_anchor t_id="5"/>
+</NON_HUMAN_PART_GENERIC>
+
+
+<LOC_GEO m_id="8" RELATED_TO="" TAG_DESCRIPTOR="t30b_mediterranean_sea" comment="" />
+<NON_HUMAN_PART_GENERIC m_id="9" RELATED_TO="" TAG_DESCRIPTOR="t30b_internet" />
+<NON_HUMAN_PART m_id="10" RELATED_TO="" TAG_DESCRIPTOR="t30b_cable" comment="" />
+<ACTION_GOLD m_id="11" RELATED_TO="" TAG_DESCRIPTOR="t30b_internet_services" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<LOC_GEO m_id="12" RELATED_TO="" TAG_DESCRIPTOR="t30b_bw_europe_middleeast_asia" comment="" />
+<ACTION_GOLD m_id="13" RELATED_TO="" TAG_DESCRIPTOR="t30b_cables_damaged" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<ACTION_GOLD m_id="14" RELATED_TO="" TAG_DESCRIPTOR="t30b_services_disrupted" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<ACTION_SILVER m_id="24" RELATED_TO="22" TAG_DESCRIPTOR="repair" climaxEvent="FALSE" class="" polarity="" comment="" />
+<ACTION_SILVER m_id="25" RELATED_TO="21" TAG_DESCRIPTOR="restore" climaxEvent="FALSE" class="" polarity="" comment="" />
+</Markables>
+
+<Relations>
+<CROSS_DOC_COREF r_id="255675" note="ACT16979307596980472" comment="" >
+<source m_id="2" />
+<source m_id="15" />
+<source m_id="23" />
+<target m_id="14" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="255676" note="LOC17760060487295911" comment="" >
+<source m_id="5" />
+<target m_id="12" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="255677" note="ACT16979225864150215" comment="" >
+<source m_id="3" />
+<target m_id="13" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="255678" note="ACT16979276821862639" comment="" >
+<source m_id="1" />
+<target m_id="11" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="255679" note="NON16979235248815535" comment="" >
+<source m_id="6" />
+<target m_id="15" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="255680" note="NON26535665966419718" comment="" >
+<source m_id="7" />
+<target m_id="16" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="255681" note="LOC16978830859817981" comment="" >
+<source m_id="4" />
+<target m_id="17" />
+</CROSS_DOC_COREF>
+<CEO_LINK r_id="257406" relType="HCPE" comment="" >
+<source m_id="13" />
+<target m_id="14" />
+</CEO_LINK>
+<CROSS_DOC_COREF r_id="257407" >
+<source m_id="22" />
+<target m_id="24" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="257408" >
+<source m_id="21" />
+<target m_id="25" />
+</CROSS_DOC_COREF>
+<CEO_LINK r_id="257409" relType="HCPE" comment="" >
+<source m_id="24" />
+<target m_id="25" />
+</CEO_LINK>
+<CEO_LINK r_id="257410" relType="HCPE" comment="" >
+<source m_id="13" />
+<target m_id="24" />
+</CEO_LINK>
+</Relations>
+</Document>

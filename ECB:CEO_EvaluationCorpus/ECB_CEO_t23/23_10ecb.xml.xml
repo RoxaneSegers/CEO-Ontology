@@ -1,0 +1,95 @@
+<Document doc_name="23_10ecb.xml">
+<token t_id="1" sentence="0" number="0">Police</token>
+<token t_id="2" sentence="0" number="1">say</token>
+<token t_id="3" sentence="0" number="2">a</token>
+<token t_id="4" sentence="0" number="3">Perth</token>
+<token t_id="5" sentence="0" number="4">mountain</token>
+<token t_id="6" sentence="0" number="5">climber</token>
+<token t_id="7" sentence="0" number="6">who</token>
+<token t_id="8" sentence="0" number="7">watched</token>
+<token t_id="9" sentence="0" number="8">his</token>
+<token t_id="10" sentence="0" number="9">brother</token>
+<token t_id="11" sentence="0" number="10">fall</token>
+<token t_id="12" sentence="0" number="11">over</token>
+<token t_id="13" sentence="0" number="12">the</token>
+<token t_id="14" sentence="0" number="13">edge</token>
+<token t_id="15" sentence="0" number="14">of</token>
+<token t_id="16" sentence="0" number="15">New</token>
+<token t_id="17" sentence="0" number="16">Zealand</token>
+<token t_id="18" sentence="0" number="17">'s</token>
+<token t_id="19" sentence="0" number="18">highest</token>
+<token t_id="20" sentence="0" number="19">mountain</token>
+<token t_id="21" sentence="0" number="20">is</token>
+<token t_id="22" sentence="0" number="21">devastated</token>
+<token t_id="23" sentence="0" number="22">.</token>
+
+
+<Markables>
+<ACTION_GOLD m_id="1" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="11"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="8" comment="" climaxEvent="FALSE" class="PERCEPTION" polarity="POS"  >
+<token_anchor t_id="8"/>
+</ACTION_GOLD>
+<ACTION_SILVER m_id="15" comment="" climaxEvent="FALSE" class="" polarity=""  >
+<token_anchor t_id="22"/>
+</ACTION_SILVER>
+<HUMAN_PART_ORG m_id="2"  >
+<token_anchor t_id="1"/>
+</HUMAN_PART_ORG>
+<HUMAN_PART_PER m_id="3" comment=""  >
+<token_anchor t_id="6"/>
+</HUMAN_PART_PER>
+<HUMAN_PART_PER m_id="4" comment=""  >
+<token_anchor t_id="10"/>
+</HUMAN_PART_PER>
+<LOC_GEO m_id="5" comment=""  >
+<token_anchor t_id="4"/>
+</LOC_GEO>
+<LOC_GEO m_id="6" comment=""  >
+<token_anchor t_id="16"/>
+<token_anchor t_id="17"/>
+<token_anchor t_id="18"/>
+<token_anchor t_id="19"/>
+<token_anchor t_id="20"/>
+</LOC_GEO>
+<NON_HUMAN_PART m_id="7" comment=""  >
+<token_anchor t_id="14"/>
+</NON_HUMAN_PART>
+
+
+<ACTION_GOLD m_id="9" RELATED_TO="" TAG_DESCRIPTOR="t23b_watched_bro_fall" comment="" climaxEvent="FALSE" class="PERCEPTION" polarity="POS" />
+<HUMAN_PART_PER m_id="10" RELATED_TO="" TAG_DESCRIPTOR="t23b_brother" comment="" />
+<HUMAN_PART_PER m_id="11" RELATED_TO="" TAG_DESCRIPTOR="t23b_climber" comment="" />
+<LOC_GEO m_id="12" RELATED_TO="" TAG_DESCRIPTOR="t23b_perth" comment="" />
+<ACTION_GOLD m_id="13" RELATED_TO="" TAG_DESCRIPTOR="t23b_fall" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<LOC_GEO m_id="14" RELATED_TO="" TAG_DESCRIPTOR="t23_cook" comment="" />
+</Markables>
+
+<Relations>
+<CROSS_DOC_COREF r_id="251786" note="LOC18241315453418084" comment="" >
+<source m_id="6" />
+<target m_id="14" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="251787" note="ACT18319724293841208" comment="" >
+<source m_id="1" />
+<target m_id="13" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="251788" note="LOC18319737183409910" comment="" >
+<source m_id="5" />
+<target m_id="12" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="251789" note="HUM18319688289991189" comment="" >
+<source m_id="3" />
+<target m_id="11" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="251790" note="HUM18319674083945732" comment="" >
+<source m_id="4" />
+<target m_id="10" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="251791" note="ACT27332138770482467" comment="" >
+<source m_id="8" />
+<target m_id="9" />
+</CROSS_DOC_COREF>
+</Relations>
+</Document>

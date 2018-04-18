@@ -1,0 +1,100 @@
+<Document doc_name="22_9ecb.xml">
+<token t_id="1" sentence="0" number="0">This</token>
+<token t_id="2" sentence="0" number="1">morning</token>
+<token t_id="3" sentence="0" number="2">,</token>
+<token t_id="4" sentence="0" number="3">41</token>
+<token t_id="5" sentence="0" number="4">years</token>
+<token t_id="6" sentence="0" number="5">later</token>
+<token t_id="7" sentence="0" number="6">,</token>
+<token t_id="8" sentence="0" number="7">Staunton</token>
+<token t_id="9" sentence="0" number="8">police</token>
+<token t_id="10" sentence="0" number="9">have</token>
+<token t_id="11" sentence="0" number="10">arrested</token>
+<token t_id="12" sentence="0" number="11">and</token>
+<token t_id="13" sentence="0" number="12">charged</token>
+<token t_id="14" sentence="0" number="13">Sharron</token>
+<token t_id="15" sentence="0" number="14">Diane</token>
+<token t_id="16" sentence="0" number="15">Crawford</token>
+<token t_id="17" sentence="0" number="16">Smith</token>
+<token t_id="18" sentence="0" number="17">,</token>
+<token t_id="19" sentence="0" number="18">age</token>
+<token t_id="20" sentence="0" number="19">61</token>
+<token t_id="21" sentence="0" number="20">,</token>
+<token t_id="22" sentence="0" number="21">with</token>
+<token t_id="23" sentence="0" number="22">two</token>
+<token t_id="24" sentence="0" number="23">counts</token>
+<token t_id="25" sentence="0" number="24">of</token>
+<token t_id="26" sentence="0" number="25">first-degree</token>
+<token t_id="27" sentence="0" number="26">murder</token>
+<token t_id="28" sentence="0" number="27">.</token>
+
+
+<Markables>
+<ACTION_GOLD m_id="1" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="11"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="2" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="13"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="3" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="27"/>
+</ACTION_GOLD>
+<HUMAN_PART_ORG m_id="4"  >
+<token_anchor t_id="8"/>
+<token_anchor t_id="9"/>
+</HUMAN_PART_ORG>
+<HUMAN_PART_PER m_id="5" comment=""  >
+<token_anchor t_id="14"/>
+<token_anchor t_id="15"/>
+<token_anchor t_id="16"/>
+<token_anchor t_id="17"/>
+</HUMAN_PART_PER>
+<TIME_DATE m_id="6" anchorTimeID="" DCT="FALSE" comment="" value=""  >
+<token_anchor t_id="1"/>
+<token_anchor t_id="2"/>
+</TIME_DATE>
+
+
+<HUMAN_PART_PER m_id="7" RELATED_TO="" TAG_DESCRIPTOR="t22b_diane" comment="" />
+<ACTION_GOLD m_id="8" RELATED_TO="" TAG_DESCRIPTOR="t22b_murder" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<TIME_DATE m_id="9" RELATED_TO="" TAG_DESCRIPTOR="t22b_friday" anchorTimeID="" DCT="FALSE" comment="" value="" />
+<HUMAN_PART_ORG m_id="10" RELATED_TO="" TAG_DESCRIPTOR="t22b_police" />
+<ACTION_GOLD m_id="11" RELATED_TO="" TAG_DESCRIPTOR="t22b_charged" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<ACTION_GOLD m_id="12" RELATED_TO="" TAG_DESCRIPTOR="t22b_arrested" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+</Markables>
+
+<Relations>
+<CROSS_DOC_COREF r_id="251527" note="ACT18239998808999423" comment="" >
+<source m_id="1" />
+<target m_id="12" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="251528" note="ACT18240012652425199" comment="" >
+<source m_id="2" />
+<target m_id="11" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="251529" note="HUM18239924421685735" comment="" >
+<source m_id="4" />
+<target m_id="10" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="251530" note="TIM18240024485682494" comment="" >
+<source m_id="6" />
+<target m_id="9" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="251531" note="ACT18239862350395745" comment="" >
+<source m_id="3" />
+<target m_id="8" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="251532" note="HUM18239875620845465" comment="" >
+<source m_id="5" />
+<target m_id="7" />
+</CROSS_DOC_COREF>
+<CEO_LINK r_id="252922" relType="HCPE" comment="" >
+<source m_id="8" />
+<target m_id="11" />
+</CEO_LINK>
+<CEO_LINK r_id="252923" relType="HCPE" comment="" >
+<source m_id="11" />
+<target m_id="12" />
+</CEO_LINK>
+</Relations>
+</Document>

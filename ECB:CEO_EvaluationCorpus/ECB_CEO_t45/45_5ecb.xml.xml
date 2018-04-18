@@ -1,0 +1,79 @@
+<Document doc_name="45_5ecb.xml">
+<token t_id="1" sentence="0" number="0">Peterson</token>
+<token t_id="2" sentence="0" number="1">,</token>
+<token t_id="3" sentence="0" number="2">32</token>
+<token t_id="4" sentence="0" number="3">,</token>
+<token t_id="5" sentence="0" number="4">was</token>
+<token t_id="6" sentence="0" number="5">convicted</token>
+<token t_id="7" sentence="0" number="6">of</token>
+<token t_id="8" sentence="0" number="7">two</token>
+<token t_id="9" sentence="0" number="8">counts</token>
+<token t_id="10" sentence="0" number="9">of</token>
+<token t_id="11" sentence="0" number="10">murder</token>
+<token t_id="12" sentence="0" number="11">in</token>
+<token t_id="13" sentence="0" number="12">the</token>
+<token t_id="14" sentence="0" number="13">deaths</token>
+<token t_id="15" sentence="0" number="14">of</token>
+<token t_id="16" sentence="0" number="15">his</token>
+<token t_id="17" sentence="0" number="16">wife</token>
+<token t_id="18" sentence="0" number="17">,</token>
+<token t_id="19" sentence="0" number="18">Laci</token>
+<token t_id="20" sentence="0" number="19">,</token>
+<token t_id="21" sentence="0" number="20">and</token>
+<token t_id="22" sentence="0" number="21">her</token>
+<token t_id="23" sentence="0" number="22">fetus</token>
+<token t_id="24" sentence="0" number="23">.</token>
+
+
+<Markables>
+<ACTION_GOLD m_id="1" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="14"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="2" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="6"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="3" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="11"/>
+</ACTION_GOLD>
+<HUMAN_PART_PER m_id="4" comment=""  >
+<token_anchor t_id="1"/>
+</HUMAN_PART_PER>
+<HUMAN_PART_PER m_id="5" comment=""  >
+<token_anchor t_id="19"/>
+</HUMAN_PART_PER>
+<HUMAN_PART_PER m_id="6" comment=""  >
+<token_anchor t_id="23"/>
+</HUMAN_PART_PER>
+
+
+<HUMAN_PART_PER m_id="7" RELATED_TO="" TAG_DESCRIPTOR="t45b_laci" comment="" />
+<ACTION_GOLD m_id="8" RELATED_TO="" TAG_DESCRIPTOR="t45b_2_counts_murder" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<ACTION_GOLD m_id="9" RELATED_TO="" TAG_DESCRIPTOR="t45b_found_guilty" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<HUMAN_PART_PER m_id="10" RELATED_TO="" TAG_DESCRIPTOR="t45b_fetus" comment="" />
+<HUMAN_PART_PER m_id="11" RELATED_TO="" TAG_DESCRIPTOR="t45b_scott_peterson" comment="" />
+</Markables>
+
+<Relations>
+<CROSS_DOC_COREF r_id="262395" note="HUM18223603553098533" comment="" >
+<source m_id="4" />
+<target m_id="11" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="262396" note="HUM18223746049497677" comment="" >
+<source m_id="6" />
+<target m_id="10" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="262397" note="ACT18225191225039905" comment="" >
+<source m_id="2" />
+<target m_id="9" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="262398" note="HUM18223617376775555" comment="" >
+<source m_id="5" />
+<target m_id="7" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="262399" note="ACT18223733653876036" comment="" >
+<source m_id="1" />
+<source m_id="3" />
+<target m_id="8" />
+</CROSS_DOC_COREF>
+</Relations>
+</Document>

@@ -1,0 +1,119 @@
+<Document doc_name="24_15ecb.xml">
+<token t_id="1" sentence="0" number="0">Three</token>
+<token t_id="2" sentence="0" number="1">or</token>
+<token t_id="3" sentence="0" number="2">four</token>
+<token t_id="4" sentence="0" number="3">robbers</token>
+<token t_id="5" sentence="0" number="4">burst</token>
+<token t_id="6" sentence="0" number="5">into</token>
+<token t_id="7" sentence="0" number="6">the</token>
+<token t_id="8" sentence="0" number="7">store</token>
+<token t_id="9" sentence="0" number="8">on</token>
+<token t_id="10" sentence="0" number="9">ritzy</token>
+<token t_id="11" sentence="0" number="10">Avenue</token>
+<token t_id="12" sentence="0" number="11">Montaigne</token>
+<token t_id="13" sentence="0" number="12">near</token>
+<token t_id="14" sentence="0" number="13">the</token>
+<token t_id="15" sentence="0" number="14">Champs-Elysees</token>
+<token t_id="16" sentence="0" number="15">late</token>
+<token t_id="17" sentence="0" number="16">Thursday</token>
+<token t_id="18" sentence="0" number="17">afternoon</token>
+<token t_id="19" sentence="0" number="18">and</token>
+<token t_id="20" sentence="0" number="19">stole</token>
+<token t_id="21" sentence="0" number="20">watches</token>
+<token t_id="22" sentence="0" number="21">,</token>
+<token t_id="23" sentence="0" number="22">rings</token>
+<token t_id="24" sentence="0" number="23">and</token>
+<token t_id="25" sentence="0" number="24">necklaces</token>
+<token t_id="26" sentence="0" number="25">.</token>
+
+
+<Markables>
+<ACTION_GOLD m_id="1" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="5"/>
+<token_anchor t_id="6"/>
+</ACTION_GOLD>
+<ACTION_GOLD m_id="2" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS"  >
+<token_anchor t_id="20"/>
+</ACTION_GOLD>
+<ACTION_SILVER m_id="16" comment="" climaxEvent="FALSE" class="" polarity=""  >
+<token_anchor t_id="11"/>
+</ACTION_SILVER>
+<HUMAN_PART_PER m_id="3" comment=""  >
+<token_anchor t_id="4"/>
+</HUMAN_PART_PER>
+<LOC_FAC m_id="4"  >
+<token_anchor t_id="7"/>
+<token_anchor t_id="8"/>
+<token_anchor t_id="9"/>
+<token_anchor t_id="10"/>
+<token_anchor t_id="11"/>
+<token_anchor t_id="12"/>
+<token_anchor t_id="13"/>
+<token_anchor t_id="14"/>
+<token_anchor t_id="15"/>
+</LOC_FAC>
+<NON_HUMAN_PART m_id="5" comment=""  >
+<token_anchor t_id="21"/>
+</NON_HUMAN_PART>
+<NON_HUMAN_PART m_id="6" comment=""  >
+<token_anchor t_id="23"/>
+</NON_HUMAN_PART>
+<NON_HUMAN_PART m_id="7" comment=""  >
+<token_anchor t_id="25"/>
+</NON_HUMAN_PART>
+<TIME_OF_THE_DAY m_id="8" value="" anchorTimeID="" DCT="FALSE"  >
+<token_anchor t_id="16"/>
+<token_anchor t_id="17"/>
+<token_anchor t_id="18"/>
+</TIME_OF_THE_DAY>
+
+
+<LOC_FAC m_id="9" RELATED_TO="" TAG_DESCRIPTOR="t24b_boutique" />
+<NON_HUMAN_PART m_id="10" RELATED_TO="" TAG_DESCRIPTOR="t24b_necklaces" comment="" />
+<ACTION_GOLD m_id="11" RELATED_TO="" TAG_DESCRIPTOR="t24b_stole" comment="" climaxEvent="FALSE" class="OCCURRENCE" polarity="POS" />
+<NON_HUMAN_PART m_id="12" RELATED_TO="" TAG_DESCRIPTOR="t24b_rings" comment="" />
+<TIME_OF_THE_DAY m_id="13" RELATED_TO="" TAG_DESCRIPTOR="t24b_late_thursday" value="" anchorTimeID="" DCT="FALSE" />
+<NON_HUMAN_PART m_id="14" RELATED_TO="" TAG_DESCRIPTOR="t24b_watches" comment="" />
+<HUMAN_PART_PER m_id="15" RELATED_TO="" TAG_DESCRIPTOR="t24b_robbers" comment="" />
+<ACTION_GOLD m_id="17" RELATED_TO="1" TAG_DESCRIPTOR="brusting into" comment="" climaxEvent="FALSE" class="" polarity="" />
+</Markables>
+
+<Relations>
+<CROSS_DOC_COREF r_id="254626" note="HUM18318452306120227" comment="" >
+<source m_id="3" />
+<target m_id="15" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254627" note="NON18318605282714241" comment="" >
+<source m_id="5" />
+<target m_id="14" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254628" note="TIM18318870850066558" comment="" >
+<source m_id="8" />
+<target m_id="13" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254629" note="NON18318591593829926" comment="" >
+<source m_id="6" />
+<target m_id="12" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254630" note="ACT18318437865031754" comment="" >
+<source m_id="2" />
+<target m_id="11" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254631" note="NON18318574010373485" comment="" >
+<source m_id="7" />
+<target m_id="16" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="254632" note="LOC18318468151124403" comment="" >
+<source m_id="4" />
+<target m_id="9" />
+</CROSS_DOC_COREF>
+<CROSS_DOC_COREF r_id="255110" >
+<source m_id="1" />
+<target m_id="17" />
+</CROSS_DOC_COREF>
+<CEO_LINK r_id="255111" relType="HCPE" comment="" >
+<source m_id="17" />
+<target m_id="11" />
+</CEO_LINK>
+</Relations>
+</Document>
