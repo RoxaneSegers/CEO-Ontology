@@ -1,4 +1,4 @@
-# ESO: The Event and Implied Situation Ontology.  
+# CEO: The Circumstantial Event Ontology.  
 
 This repository contains the Circumstantial Event Ontology (CEO). 
 This is version 1.0 (stable)
@@ -6,19 +6,17 @@ This is version 1.0 (stable)
 ## Resource Description
 The Circumstantial Event Ontology (CEO.owl), is a manually constructed resource which formalizes 
 the pre-, during-, and post-situations of *events* and the *roles* of the entities affected by an event. 
-Further, it allows to infer weakly causal and implicit relations between events in natural language text.
+Further, it allows to infer *implicit* relations between events in natural language text.
 
 
 ### Prerequisites
 CEO is fully mapped to [SUMO](http://www.adampease.org/OP/) on class level and to [FrameNet](https://framenet.icsi.berkeley.edu/fndrupal/) on class and role level. 
-As input format, CEO can work on unannotated and unprocessed data. In this case, the model will infer circumstantial relations only based on surface forms of event mentions. 
+As input format, CEO can work on unannotated and unprocessed data. In this case, the model will infer circumstantial relations only based on surface forms of the event mentions. 
 To get you started, we provide a vocabulary with event surface forms mapped to CEO classes.
 However, in order to employ the full inference power of the model, we advise to use processed documents with FrameNet based Semantic Role Labeling. 
  
 
-
 ### Contents CEO
-
 
 
 
